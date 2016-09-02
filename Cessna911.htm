@@ -1,0 +1,453 @@
+<HTML>
+<HEAD>
+	
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>C172M,N-C152 Emergencies</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.2  (Win32)">
+	<META NAME="AUTHOR" CONTENT="Jason Brodeur">
+	<META NAME="CREATED" CONTENT="20110215;14490500">
+	<META NAME="CHANGEDBY" CONTENT="Jason Brodeur">
+	<META NAME="CHANGED" CONTENT="20110215;16051800">
+	<style type="text/css" media="print">  
+		  @page land {size: landscape;} 
+     .graphland { page: land; } 
+     @page { filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1) }
+	</style>
+
+	<style>
+
+    <!-- 
+    
+    BODY,DIV,TABLE,THEAD,TBODY,TFOOT,TR,TH,TD,P { font-family:"Arial"; font-size:x-small }
+    
+    
+        .Title
+      {  
+         color: White;
+         background-color: #000000;
+         Padding-left: 5; Padding-Right: 5;
+
+         font-weight: Bold;
+         font-family: Arial; font-Size: 11pt; 
+     }
+    
+    .SecHeading
+      {  
+         Padding-left: 5; Padding-Right: 5;
+         background-color: #FFEEAA;
+         font-weight: Bold;
+         font-family: Arial; font-Size: 12pt;  }
+
+    .SecHeadingIce
+      {  
+         Padding-left: 5; Padding-Right: 5;
+         background-color: #DDEEFF;
+         font-weight: Bold;
+         font-family: Arial; font-Size: 12pt;  }
+
+    .SecHeadingFail
+      {  
+         Padding-left: 5; Padding-Right: 5;
+         background-color: #FFEEFF;
+         font-weight: Bold;
+         font-family: Arial; font-Size: 12pt;  }
+
+
+     
+    .ListItem
+      { 
+        vertical-align: top;
+        border-bottom: solid #CCCCCC 1px;
+        text-align: right;
+        Padding-left: 4; Padding-Right: 4;
+        font-family: Arial; font-Size: 14pt; font-weight: }
+        
+    .ListTask
+      { 
+        vertical-align: top;
+        border-bottom: solid #CCCCCC 1px;
+        Padding-left: 4; Padding-Right: 10;
+        font-family: Arial; font-Size: 14pt; font-weight: 
+        }
+        
+     
+    .ListItemTime
+      { 
+        text-style: bold;
+        background-color: #004400;
+        color: Yellow;
+        border-bottom: solid #CCCCCC 1px;
+        text-align: right;
+        Padding-left: 2; Padding-Right: 2;
+        font-family: Arial; font-Size: 14pt; font-weight: }
+        
+    .ListTaskTime
+      { 
+        text-style: bold;
+        background-color: #004400;
+        color: Yellow;
+        border-bottom: solid #CCCCCC 1px;
+        Padding-left: 2; Padding-Right: 2;
+        font-family: Arial; font-Size: 14pt; font-weight: 
+        }
+
+     
+    .ListItemPlan
+      { 
+        text-style: bold;
+        background-color: #000044;
+        color: White;
+        border-bottom: solid #CCCCCC 1px;
+        text-align: right;
+        Padding-left: 2; Padding-Right: 2;
+        font-family: Arial; font-Size: 12pt; font-weight: }
+        
+    .ListTaskPlan
+      { 
+        text-style: bold;
+        background-color: #000044;
+        color: White;
+        border-bottom: solid #CCCCCC 1px;
+        Padding-left: 2; Padding-Right: 2;
+        font-family: Arial; font-Size: 12pt; font-weight: 
+        }
+
+    .ListSpeed
+      { 
+        text-wrap: none;
+        text-align: right;
+        border-bottom: solid #CCCCCC 1px;
+        Padding-left: 2; Padding-Right: 2;
+        font-family: Arial; font-Size: 12pt; font-weight: 
+        }
+      
+    .ListNum {
+       vertical-align: top;
+       text-align: right;
+       font-family: Arial; font-Size: 11pt; font-weight: Bold;  
+       }
+       
+     .E1 {
+       font-Size: 14pt; 
+       color: Yellow;
+       background-color: #220000;
+       vertical-align: top;
+       text-align: right;
+       font-family: Arial; 
+       font-weight: Bold;  
+       }
+       
+       .E2 {
+       font-Size: 14pt; 
+       color: Yellow;
+       background-color: #220000;
+       vertical-align: top;
+       text-align: right;
+       font-family: Arial; 
+       font-weight: Bold;  
+       }
+       
+     .Panics {
+       font-Size: 11pt;
+       text-wrap: none;
+       color: #CCCCCC;
+       background-color: #220000;
+       Padding-left: 2; Padding-Right: 4;
+       vertical-align: bottom;
+       text-align: center;
+       font-family: Arial;  
+       font-weight: normal;  
+       }
+       
+      .Panics2 {
+       font-Size: 14pt;
+       text-wrap: none;
+       color: #CCCCCC;
+       background-color: #220000;
+       Padding-left: 2; Padding-Right: 4;
+       vertical-align: center;
+       text-align: center;
+       font-family: Arial;  
+       font-weight: normal;  
+       }
+     -->
+</STYLE>
+</HEAD>
+
+<FONT SIZE="128"><A HREF="menu.cfm">Menu</A></FONT>
+
+<TABLE WIDTH=100%>
+ <TR >
+ 	 <TD VALIGN=TOP COLSPAN=3>
+	    <TABLE CELLSPACING=1 WIDTH=100% CELLPADDING=1 BGCOLOR=#888888 >
+	       <TR>
+	           <TD WIDTH=30% CLASS=TITLE NOWRAP>Cessna 172M / 152  
+               <TD CLASS=Panics><SPAN CLASS=E1>A</SPAN>viate  
+               <TD CLASS=Panics><SPAN CLASS=E1>N</SPAN>avigate
+	           <TD CLASS=Panics><SPAN CLASS=E1>I</SPAN>nvestigate 
+	           <TD CLASS=Panics><SPAN CLASS=E1>C</SPAN>ommunicate 
+	           <TD CLASS=Panics><SPAN CLASS=E1>S</SPAN>ecure 
+       </TABLE>
+       
+ <TR>
+ 	 <TD VALIGN=TOP WIDTH=100% COLSPAN=3 BGCOLOR=Black>
+      <FONT COLOR=RED><B>ENGINE FAIL <FONT COLOR=WHITE><B>ENGINE FAIL 
+		 <TR>	    
+			 <TD CLASS=SecHeadingFail COLSPAN=3>ENGINE FAIL - TAKEOFF RUN
+               
+              <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Throttle<TD CLASS=ListTask>IDLE     
+              <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Brakes<TD CLASS=ListTask>APPLY     
+              <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Flaps<TD CLASS=ListTask>RETRACT     
+              <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Mixture<TD CLASS=ListTask>IDLE CUTOFF     
+              <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Ignition<TD CLASS=ListTask>OFF     
+              <TR><TD CLASS=ListNum>6<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>OFF 
+		 <TR>	    
+			 <TD CLASS=SecHeadingFail COLSPAN=3>ENGINE FAIL - AFTER TAKEOFF     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Speed ( Flaps &uarr;, &darr; )<TD CLASS=ListTask>65, 60 Kts      
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Mixture<TD CLASS=ListTask>IDLE CUTOFF     
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Fuel Selector<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Ignition<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Flaps<TD CLASS=ListTask>AS DESIRED     
+             <TR><TD CLASS=ListNum>6<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>7<TD CLASS=ListItem>Cabin Door<TD CLASS=ListTask>UNLATCH     
+             <TR><TD CLASS=ListNum>8<TD CLASS=ListItem>Land<TD CLASS=ListTask>STRAIGHT AHEAD 
+             <TR><TD>&nbsp; 
+
+   		 <TR>	    
+			 <TD CLASS=SecHeadingFail COLSPAN=3>ENGINE FAIL IN-FLIGHT     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Airspeed<TD CLASS=ListTask>65 KIAS     
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Land Site<TD CLASS=ListTask>IDENTIFY     
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Carb. Heat<TD CLASS=ListTask>ON     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Fuel Selector<TD CLASS=ListTask>BOTH     
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Mixture<TD CLASS=ListTask>RICH     
+             <TR><TD CLASS=ListNum>6<TD CLASS=ListItem>Ignition<TD CLASS=ListTask>BOTH or START     
+             <TR><TD CLASS=ListNum><TD CLASS=ListTask COLSPAN=2>&nbsp;IF Prop stopped:
+             <TR><TD CLASS=ListNum>7<TD CLASS=ListItem>Primer<TD CLASS=ListTask>IN and LOCKED     
+             <TR><TD CLASS=ListNum>8<TD CLASS=ListItem>Gauges<TD CLASS=ListTask>CHK
+             <TR><TD CLASS=ListNum>9<TD CLASS=ListItem>Thrott. & Mix.<TD CLASS=ListTask>VARIATE  
+
+
+ <TR>
+ 	 <TD VALIGN=TOP WIDTH=100% COLSPAN=3 BGCOLOR=Black>
+      <FONT COLOR=RED><B>FIRES <FONT COLOR=ORANGE><B>FIRES <FONT COLOR=YELLOW><B>FIRES   <FONT COLOR=GREY><B>SMOKE 
+
+
+		 <TR>	    
+			 <TD CLASS=SecHeading COLSPAN=3>ENGINE FIRE - ENGINE START     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Cranking<TD CLASS=ListTask>CONTINUE     
+             <TR><TD CLASS=ListNum><TD CLASS=ListTask COLSPAN=2>&nbsp;IF Engine STARTS:     
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Power<TD CLASS=ListTask>1700 RPM     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Engine<TD CLASS=ListTask>SHUTDOWN     
+   
+             <TR><TD CLASS=ListNum><TD CLASS=ListTask COLSPAN=2>&nbsp;IF Engine FAILS to START:     
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Throttle<TD CLASS=ListTask>FULL OPEN     
+             <TR><TD CLASS=ListNum>6<TD CLASS=ListItem>Mixture<TD CLASS=ListTask>IDLE CUTOFF     
+             <TR><TD CLASS=ListNum>7<TD CLASS=ListItem>Cranking<TD CLASS=ListTask>CONTINUE     
+             <TR><TD CLASS=ListNum>9<TD CLASS=ListItem>Fuel Selector<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>10<TD CLASS=ListItem>Fire Extinguisher<TD CLASS=ListTask>OBTAIN     
+             <TR><TD CLASS=ListNum><TD CLASS=ListTask COLSPAN=2>SECURE ENGINE:     
+             <TR><TD CLASS=ListNum>11<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>12<TD CLASS=ListItem>Ignition<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>13<TD CLASS=ListItem>Parking Brake<TD CLASS=ListTask>RELEASE     
+             <TR><TD CLASS=ListNum>14<TD CLASS=ListItem>Airplane<TD CLASS=ListTask>EVACUATE     
+             <TR><TD CLASS=ListNum>15<TD CLASS=ListItem>Fire<TD CLASS=ListTask>EXTINGUISH     
+       
+   
+   		 <TR>	    
+			 <TD CLASS=SecHeading COLSPAN=3>WING FIRE     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Pitot, Strobes, Nav<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>SideSlip Flames<TD CLASS=ListTask>AWAY from FUEL
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Forced Land<TD CLASS=ListTask>ASAP     
+ 
+
+   		 <TR>	    
+    		 <TD CLASS=SecHeading COLSPAN=3>ENGINE FIRE IN FLIGHT     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Mixture<TD CLASS=ListTask>IDLE CUTOFF     
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Fuel Selector<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Cabin Heat &amp; Air<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Airspeed<TD CLASS=ListTask>100 KIAS   
+             <TR><TD CLASS=ListNum>6<TD CLASS=ListItem>Airspeed<TD CLASS=ListTask>IF REQ INCR.             
+             <TR><TD CLASS=ListNum>7<TD CLASS=ListItem>Forced Landing<TD CLASS=ListTask>EXECUTE
+		 <TR>	    
+			 <TD CLASS=SecHeading COLSPAN=3>ELECTRICAL FIRE     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Avionics Master<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>All oth. electric<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Vents/Air/Heat<TD CLASS=ListTask>CLOSED     
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Fire Ext.<TD CLASS=ListTask>ACTIVATE     
+             <TR><TD CLASS=ListNum>6<TD CLASS=ListItem>Vents<TD CLASS=ListTask>OPEN
+             <TR><TD CLASS=ListNum>7<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>ON     
+             <TR><TD CLASS=ListNum>8<TD CLASS=ListItem>Circuit Breakers<TD CLASS=ListTask>CHK-NO-RESET   
+             <TR><TD CLASS=ListNum>9<TD CLASS=ListItem>Radios<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>10<TD CLASS=ListItem>Avionics Master<TD CLASS=ListTask>ON     
+             <TR><TD CLASS=ListNum>11<TD CLASS=ListItem>Radios/Elec.<TD CLASS=ListTask>1-BY-1 ON     
+             <TR><TD CLASS=ListNum>12<TD CLASS=ListItem>Vents/Air/Heat<TD CLASS=ListTask>OPEN   
+		 <TR>	    
+			 <TD CLASS=SecHeading COLSPAN=3>CABIN FIRE     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Vents/Air/Heat<TD CLASS=ListTask>CLOSED     
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Fire Extinguisher<TD CLASS=ListTask>ACTIVATE     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Cabin<TD CLASS=ListTask>VENTILATE     
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Land<TD CLASS=ListTask>ASAP
+
+
+<TR>
+ 	 <TD VALIGN=TOP WIDTH=100% COLSPAN=3 BGCOLOR=Black>
+      <FONT COLOR=CYAN><B>ICE   <FONT COLOR=WHITE><B>ICE 
+
+
+ 		 <TR>	    
+			 <TD CLASS=SecHeadingIce COLSPAN=3>ICING     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Pitot Heat<TD CLASS=ListTask>ON
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Fly away from Icing<TD CLASS=ListTask>FIND BETTER OAT     
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Cabin Heat<TD CLASS=ListTask>FULL ON     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Throttle Full<TD CLASS=ListTask>&uarr; PROP SPEED     
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Carb Heat<TD CLASS=ListTask>ON
+             <TR><TD CLASS=ListNum>6<TD CLASS=ListItem>Intake Air<TD CLASS=ListTask>FILTER ICE?
+             <TR><TD CLASS=ListNum>7<TD CLASS=ListItem>Tail<TD CLASS=ListTask>CHK ICE
+             <TR><TD CLASS=ListNum>8<TD CLASS=ListItem>Tail Iced? Flaps<TD CLASS=ListTask>LEAVE UP
+             <TR><TD CLASS=ListNum>9<TD CLASS=ListItem>Approach<TD CLASS=ListTask>FAST
+             <TR><TD CLASS=ListNum>10<TD CLASS=ListItem>Land<TD CLASS=ListTask>LEVEL
+
+<TR>
+ 	 <TD VALIGN=TOP WIDTH=100% COLSPAN=3 BGCOLOR=Black>
+      <FONT COLOR=RED><B>ENGINE FAIL  <FONT COLOR=ORANGE><B>ENGINE FAIL 
+
+   		 <TR>	    
+			 <TD CLASS=SecHeadingFail COLSPAN=3>ENGINE FAIL IN-FLIGHT     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Airspeed<TD CLASS=ListTask>65 KIAS     
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Land Site<TD CLASS=ListTask>IDENTIFY     
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Carb. Heat<TD CLASS=ListTask>ON     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Fuel Selector<TD CLASS=ListTask>BOTH     
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Mixture<TD CLASS=ListTask>RICH     
+             <TR><TD CLASS=ListNum>6<TD CLASS=ListItem>Ignition<TD CLASS=ListTask>BOTH or START     
+             <TR><TD CLASS=ListNum><TD CLASS=ListTask COLSPAN=2>&nbsp;IF Prop stopped:
+             <TR><TD CLASS=ListNum>7<TD CLASS=ListItem>Primer<TD CLASS=ListTask>IN and LOCKED     
+             <TR><TD CLASS=ListNum>8<TD CLASS=ListItem>Gauges<TD CLASS=ListTask>CHK
+             <TR><TD CLASS=ListNum>9<TD CLASS=ListItem>Thrott. & Mix.<TD CLASS=ListTask>VARIATE             
+
+		 <TR>
+			 <TD CLASS=SecHeadingFail COLSPAN=3>FORCED LANDING
+                    <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Seat Backs<TD CLASS=ListTask>UPRIGHT     
+                    <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Seats/Belts<TD CLASS=ListTask>SECURE     
+                    <TR><TD CLASS=ListNum>3a<TD CLASS=ListItem >Airspeed <TD CLASS=ListTask NOWRAP>65 KTs (Flaps UP)
+                    <TR><TD CLASS=ListNum>3b<TD CLASS=ListItem >Airspeed <TD CLASS=ListTask NOWRAP>60 KTs (Flaps DN)
+                    <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Landing Site<TD CLASS=ListTask>IDENTIFY     
+                    <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>MAYDAY <FONT COLOR=BLUE>121.5<TD CLASS=ListTask> SQUAWK <FONT COLOR=BLUE>7700     
+                    <TR><TD CLASS=ListNum>6<TD CLASS=ListItem>Mixture<TD CLASS=ListTask>IDLE CUTOFF     
+                    <TR><TD CLASS=ListNum>7<TD CLASS=ListItem>Fuel Selector<TD CLASS=ListTask>OFF     
+                    <TR><TD CLASS=ListNum>8<TD CLASS=ListItem>Ignition<TD CLASS=ListTask>OFF     
+                    <TR><TD CLASS=ListNum>9<TD CLASS=ListItem>Flaps<TD CLASS=ListTask>DUMP AS REQ.
+                    <TR><TD CLASS=ListNum>10<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>OFF     
+                    <TR><TD CLASS=ListNum>11<TD CLASS=ListItem>Doors<TD CLASS=ListTask>UNLATCH     
+                    <TR><TD CLASS=ListNum>12<TD CLASS=ListItem>Touchdown<TD CLASS=ListTask>TAIL LOW     
+                    <TR><TD CLASS=ListNum>13<TD CLASS=ListItem>Brakes<TD CLASS=ListTask>APPLY HEAVY     
+		 <TR>
+            <TD CLASS=SecHeadingFail COLSPAN=3>PRECAUTIONARY
+                     <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Inspect Field<TD CLASS=ListTask>Flaps 20&deg; @ 60 KTs     
+                    <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Climb<TD CLASS=ListTask>FLAPS Retract 
+                    <TR><TD CLASS=ListNum><TD CLASS=ListItem>APPROACH:   
+                    <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Avionics Mast.<TD CLASS=ListTask>OFF                      
+                    <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Electrics<TD CLASS=ListTask>OFF     
+                    <TR><TD CLASS=ListNum>6<TD CLASS=ListItem>Flaps<TD CLASS=ListTask> 40&deg; on FINAL     
+                    <TR><TD CLASS=ListNum>7<TD CLASS=ListItem>Airspeed<TD CLASS=ListTask>60 KIAS     
+                    <TR><TD CLASS=ListNum>8<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>OFF     
+                    <TR><TD CLASS=ListNum>9<TD CLASS=ListItem>Doors<TD CLASS=ListTask>UNLATCH     
+                    <TR><TD CLASS=ListNum>10<TD CLASS=ListItem>Touchdown<TD CLASS=ListTask>TAIL LOW     
+                    <TR><TD CLASS=ListNum>11<TD CLASS=ListItem>Ignition<TD CLASS=ListTask>OFF     
+                    <TR><TD CLASS=ListNum>12<TD CLASS=ListItem>Brakes<TD CLASS=ListTask>APPLY HEAVY
+
+
+<TR>
+ 	 <TD VALIGN=TOP WIDTH=100% COLSPAN=3 BGCOLOR=Black>
+      <FONT COLOR=RED><FONT COLOR=ORANGE><B>ELECTRICAL FAILURES
+
+		 <TR>	    
+			 <TD CLASS=SecHeadingFail COLSPAN=3>OVER-VOLT. LIGHT ON  
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Avionics Master<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Master Switch<TD CLASS=ListTask>ON     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>If Over-Vol. Light<TD CLASS=ListTask>OFF?:    
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Avionics Master<TD CLASS=ListTask>ON   
+             <TR><TD CLASS=ListNum>6<TD CLASS=ListItem NOWRAP>Is Volt Light On?<TD CLASS=ListTask>LAND ASAP     
+		 <TR>	    
+			 <TD CLASS=SecHeadingFail COLSPAN=3>AMMETER DISCHARGE
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Alternator Sw.<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem NOWRAP>Non-Ess. Elec.<TD CLASS=ListTask>OFF     
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Flight<TD CLASS=ListTask>END ASAP
+             
+<TR>
+ 	 <TD VALIGN=TOP WIDTH=100% COLSPAN=3 BGCOLOR=Black>
+      <FONT COLOR=RED><B>&nbsp;EMERGENCY PROCEDURES <FONT COLOR=ORANGE><B>INSTRUMENT FAILURES
+  
+		 <TR>	    
+			 <TD CLASS=SecHeadingFail COLSPAN=3>STATIC SOURCE BLOCK     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Alt. Stat. Source<TD CLASS=ListTask>ON     
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Airspeed<TD CLASS=ListTask>POH Section 5
+            
+		 <TR>	    
+			 <TD CLASS=SecHeadingFail COLSPAN=3>FLAT TIRE (MAIN) - LANDING
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Approach<TD CLASS=ListTask>NORMAL     
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Touchdown<TD CLASS=ListTask>GOOD TIRE first    
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Good Tire<TD CLASS=ListTask>STAY ON  
+
+<TR>
+ 	 <TD VALIGN=TOP WIDTH=100% COLSPAN=3 BGCOLOR=Black>
+      <FONT COLOR=CYAN><B>OVER WATER <FONT COLOR=WHITE><B>OVER WATER
+              
+		 <TR>	    
+			 <TD CLASS=SecHeadingIce COLSPAN=3>DITCHING     
+             <TR><TD CLASS=ListNum>1<TD CLASS=ListItem>Radio<TD CLASS=ListTask>MAYDAY 121.5     
+             <TR><TD CLASS=ListNum>2<TD CLASS=ListItem>Transponder<TD CLASS=ListTask>7700 
+             <TR><TD CLASS=ListNum>3<TD CLASS=ListItem>Heavy Objects<TD CLASS=ListTask>SECURE,JETTISON     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Seat Backs<TD CLASS=ListTask>UPRIGHT     
+             <TR><TD CLASS=ListNum>5<TD CLASS=ListItem>Seats/Belts<TD CLASS=ListTask>SECURE     
+  
+             <TR><TD CLASS=ListNum>6<TD CLASS=ListTask COLSPAN=2>APPROACH When Winds/Seas:     
+             <TR><TD CLASS=ListNum><TD CLASS=ListItem NOWRAP>High<TD CLASS=ListTask>INTO WIND     
+             <TR><TD CLASS=ListNum><TD CLASS=ListItem NOWRAP>Light<TD CLASS=ListTask>PARALLEL     
+             <TR><TD CLASS=ListNum>7<TD CLASS=ListItem>Flaps<TD CLASS=ListTask>20&deg; to 40&deg;     
+             <TR><TD CLASS=ListNum>8<TD CLASS=ListItem>Descend Power <TD CLASS=ListTask NOWRAP>300 ft/min 55 Kts    
+             <TR><TD CLASS=ListNum>9<TD CLASS=ListItem>Final<TD CLASS=ListTask>65 Kts (Flaps UP)
+             <TR><TD CLASS=ListNum>10<TD CLASS=ListItem>Final<TD CLASS=ListTask>60 Kts (Flaps DN)
+    
+             <TR><TD CLASS=ListNum>11<TD CLASS=ListItem>Cabin Doors<TD CLASS=ListTask>UNLATCH     
+             <TR><TD CLASS=ListNum>12<TD CLASS=ListItem>Touchdown<TD CLASS=ListTask>LEVEL ATTITUDE     
+             <TR><TD CLASS=ListNum>14<TD CLASS=ListItem>Face<TD CLASS=ListTask>CUSHION     
+             <TR><TD CLASS=ListNum>13<TD CLASS=ListItem>ELT<TD CLASS=ListTask>ACTIVATE     
+             <TR><TD CLASS=ListNum>14<TD CLASS=ListItem>Airplane<TD CLASS=ListTask>EVACUATE     
+             <TR><TD CLASS=ListNum>15<TD CLASS=ListItem>Life Vests, Raft<TD CLASS=ListTask>INFLATE     
+              <TR><TD>&nbsp;   
+        
+<!---
+		 <TR>
+ 			 <TD CLASS=SecHeading COLSPAN=3>PROPELLER OVERSPEED (N29MX)     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Throttle<TD CLASS=ListTask>RETARD     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Oil Pressure<TD CLASS=ListTask>CHK     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Propeller<TD CLASS=ListTask>FULL AFT     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Airspeed<TD CLASS=ListTask>REDUCE     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Throttle<TD CLASS=ListTask>REDUCE     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>To under 2700 RPM     
+             <TR><TD CLASS=ListNum>4<TD CLASS=ListItem>Flaps<TD CLASS=ListTask>AS REQD. for slow flight
+             <TR><TD>&nbsp; 
+ --->
+
+
+ 
+  <TR >
+ 	 <TD VALIGN=TOP COLSPAN=3>
+	    <TABLE CELLSPACING=1 WIDTH=100% CELLPADDING=1 BGCOLOR=#888888>
+	       <TR>
+	           <TD WIDTH=30% CLASS=TITLE NOWRAP>Cessna 172M / 152  
+               <TD CLASS=Panics><SPAN CLASS=E1>A</SPAN>viate  
+               <TD CLASS=Panics><SPAN CLASS=E1>N</SPAN>avigate
+	           <TD CLASS=Panics><SPAN CLASS=E1>I</SPAN>nvestigate 
+	           <TD CLASS=Panics><SPAN CLASS=E1>C</SPAN>ommunicate 
+	           <TD CLASS=Panics><SPAN CLASS=E1>S</SPAN>ecure 
+
+</TABLE>
+
+<FONT SIZE="128"><A HREF="menu.cfm">Menu</A></FONT>
+</BODY>
+</HTML>

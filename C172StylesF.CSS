@@ -1,0 +1,184 @@
+<style>
+
+    <!-- 
+    
+    BODY,DIV,TABLE,THEAD,TBODY,TFOOT,TR,TH,TD,P { font-family:"Arial"; font-size:x-small }
+    
+     input { font-size: 28pt }
+     input.text { font-size: 28pt }
+     input.button { font-size: 38pt }
+ 
+     
+     select { font-size: 28pt }
+     select.option { font-size: 28pt } 
+     
+
+    
+    
+        .Title
+      {  
+         color: White;
+         background-color: #000000;
+         Padding-left: 5; Padding-Right: 5;
+         font-weight: Bold;
+         font-family: Arial; font-Size: 13pt; 
+     }
+    
+    .SecHeading
+      {  
+         text-align: Right;
+         Padding-left: 40; Padding-Right: 40;
+         Padding-top: 1; Padding-bottom: 1;
+         background-color: #AAFFEE;
+         font-weight: Bold;
+         font-family: Arial; 
+         font-Size: 32pt; 
+         
+       }
+       
+     .SecHeadingIce
+      {  
+         text-align: Right;
+         Padding-left: 40; Padding-Right: 40;
+         background-color: #DDEEFF;
+         font-weight: Bold;
+         font-family: Arial; font-Size: 32pt;  }
+
+    .SecHeading2
+      {  
+         text-align: Right;       
+         Padding-left: 40; Padding-Right: 40;
+         background-color: #FFEEAA;
+         font-weight: Bold;
+         font-family: Arial; font-Size: 32pt;  }
+     
+    .ListItem
+      { 
+        white-space: nowrap;
+        vertical-align: top;
+        background-color: #CCDDEE;
+        border-bottom: solid #EEEEEE 1px;
+        text-align: right;
+        Padding-left: 2; Padding-Right: 5;
+        Padding-top: 1; Padding-bottom: 1;
+        font-family: Arial; 
+        font-Size: 28pt; 
+        color: #000000
+
+      }
+        
+    .ListTask
+      { 
+        white-space: nowrap;
+        vertical-align: top;
+        background-color: #DDDDEE;
+        border-bottom: solid #DDDDDD 1px;
+        Padding-left: 3; Padding-Right: 3;
+        Padding-top: 1; Padding-bottom: 1;
+        font-family: Arial; font-Size: 28pt; 
+        white-space: nowrap;
+        color: #333333
+        background-color: EEDDEE;
+      }
+        
+     
+    .ListItemTime
+      { 
+        text-style: bold;
+        background-color: #004400;
+        color: Yellow;
+        border-bottom: solid #CCCCCC 1px;
+        text-align: right;
+        Padding-left: 2; Padding-Right: 2;
+        font-family: Arial; font-Size: 20pt; font-weight: }
+        
+    .ListTaskTime
+      { 
+        text-style: bold;
+        background-color: #004400;
+        color: Yellow;
+        border-bottom: solid #CCCCCC 1px;
+        Padding-left: 2; Padding-Right: 2;
+        font-family: Arial; font-Size: 20pt; font-weight: 
+        }
+
+     
+    .ListItemPlan
+      { 
+        text-style: bold;
+        background-color: #000044;
+        color: White;
+        border-bottom: solid #CCCCCC 1px;
+        text-align: right;
+        Padding-left: 2; Padding-Right: 2;
+        font-family: Arial; font-Size: 20pt; font-weight: 
+        }
+        
+    .ListTaskPlan
+      { 
+        text-style: bold;
+        background-color: #000044;
+        color: White;
+        border-bottom: solid #CCCCCC 1px;
+        Padding-left: 2; Padding-Right: 2;
+        font-family: Arial; font-Size: 20pt; font-weight: 
+        }
+
+    .ListSpeed
+      { 
+        text-wrap: none;
+        text-align: right;
+        background-color: #DDDDFF;
+        border-bottom: solid #CCCCCC 1px;
+        Padding-left: 4; Padding-Right: 4;
+        font-family: Arial; font-Size: 32pt; font-weight: Bold;
+        }
+      
+    .ListNum {
+       vertical-align: top;
+       text-align: right;
+       font-family: Arial; font-Size: 15 pt; 
+       font-weight: Bold;  
+       color: #AAAAAA;
+       Padding-top: 1; Padding-bottom: 1;
+       }
+       
+     .E1 {
+       color: Yellow;
+         background-color: #220000;
+       vertical-align: top;
+       text-align: right;
+       font-family: Arial; font-Size: 14pt; 
+       font-weight: Bold;  
+       }
+       
+     .Panics {
+       text-wrap: none;
+       color: #CCCCCC;
+         background-color: #220000;
+         Padding-left: 2; Padding-Right: 4;
+       vertical-align: bottom;
+       text-align: right;
+       font-family: Arial; font-Size: 12pt; 
+       font-weight: normal;  
+       }
+       
+       
+      .Input {
+           font-family: Arial; font-Size: 24pt; 
+           text-align: right;
+      } 
+      
+      INput.text {
+           font-family: Arial; font-Size: 24pt; 
+           text-align: right;
+      
+      } 
+
+      .text {
+           font-family: Arial; font-Size: 24pt; 
+           text-align: right;
+      } 
+       
+     -->
+</STYLE>
